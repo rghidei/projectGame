@@ -31,6 +31,12 @@ let suits = ['♣','♥', '♠','◆']
 let cardDeck = []
 let deckBtn = document.querySelector('#deckBtn')
 
+let player = {
+    name: "Per",
+    chips: 1000
+}
+let sum = 0
+
 function createDeck(){
   let numOfDecks = document.querySelector("#howManyDecks").value
   for(let i = 1; i <= numOfDecks;i++){
