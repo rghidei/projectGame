@@ -30,3 +30,7 @@ span{
 .bot{
   text-align: right;
 }
+
+.hide{
+  display: none;
+}
